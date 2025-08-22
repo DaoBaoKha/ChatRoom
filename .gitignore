@@ -3,6 +3,24 @@
 ##
 ## Get latest from https://github.com/github/gitignore/blob/main/VisualStudio.gitignore
 
+# User secrets (dotnet user-secrets)
+secrets.json
+
+# VS launch profiles
+Properties/launchSettings.json
+
+# REST Client extension files
+*.http
+*.rest
+
+# Application logs
+logs/
+*.log
+
+# Node.js modules (for wwwroot demos)
+wwwroot/node_modules/
+
+
 # User-specific files
 *.rsuser
 *.suo
